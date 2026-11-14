@@ -1,0 +1,7 @@
+Cohort / Model,N,Prevalence,Accuracy,Sensitivity (Recall),Specificity,Missed Cases (FN),False Alarms (FP),ROC-AUC,PR-AUC,Brier Score
+Tier 0: Majority Baseline (Cleveland Test),61,0.459,0.541,0.0,1.0,28,0,0.5,0.459,0.459
+Tier 1A: 13-Feature LR (Cleveland Test),61,0.459,0.852,0.893,0.818,3,6,0.957,0.937,0.085
+Tier 1B: 7-Feature Checkup LR (Cleveland Test),61,0.459,0.787,0.714,0.848,8,5,0.868,0.767,0.151
+Unseen Hospital (Hungary) — 7-Feat LR,294,0.361,0.796,0.708,0.846,31,29,0.843,0.753,0.149
+Unseen Hospital (Switzerland) — 7-Feat LR,123,0.935,0.764,0.774,0.625,26,3,0.755,0.964,0.178
+Unseen Hospital (Long Beach VA) — 7-Feat LR,200,0.745,0.7,0.745,0.569,38,22,0.713,0.856,0.197
