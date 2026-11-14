@@ -1,0 +1,5 @@
+Subgroup,N,Prevalence,Sensitivity (Recall),Specificity,Missed Cases (FN),False Alarms (FP),ROC-AUC,Caught by Unsure Zone
+Sex: Female (sex=0),117,0.274,0.406,0.976,19,2,0.857,12
+Sex: Male (sex=1),561,0.652,0.907,0.523,34,93,0.81,22
+Age: < 55 years,357,0.448,0.775,0.802,36,39,0.848,19
+Age: >= 55 years,321,0.741,0.929,0.325,17,56,0.751,15
