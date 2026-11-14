@@ -1,0 +1,8 @@
+Cohort / Tier,N,Accuracy (@t*),Sensitivity (@t*),Specificity (@t*),FN (@t*),FP (@t*),ROC-AUC,PR-AUC,Brier,Unsure %,Unflagged FN (Sent Home),Positives Caught by Unsure
+Tier 3: Calibrated 7-Feat Model (Cleveland Test),61,0.787,0.857,0.727,4,9,0.854,0.767,0.155,26.2%,1,5
+Unseen (Hungary) — Zero-Shot,294,0.762,0.792,0.745,22,48,0.837,0.717,0.156,15.6%,12,14
+Unseen (Hungary N=274) — 20-Pt Recalibrated,274,0.777,0.778,0.777,22,39,0.831,0.706,0.159,11.7%,17,11
+Unseen (Switzerland) — Zero-Shot,123,0.878,0.904,0.5,11,4,0.763,0.974,0.151,17.9%,2,17
+Unseen (Switzerland N=103) — 20-Pt Recalibrated,103,0.932,1.0,0.0,0,7,0.744,0.97,0.06,0.0%,0,0
+Unseen (Long Beach VA) — Zero-Shot,200,0.75,0.893,0.333,16,34,0.712,0.855,0.187,17.5%,4,21
+Unseen (Long Beach VA N=180) — 20-Pt Recalibrated,180,0.744,1.0,0.0,0,46,0.714,0.853,0.175,1.7%,0,2
